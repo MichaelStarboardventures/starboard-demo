@@ -160,7 +160,7 @@ export default () => {
         name: 'Evaporation',
         type: 'bar',
         tooltip: {
-          valueFormatter: function (value) {
+          valueFormatter: function (value: string) {
             return value + ' ml';
           },
         },
@@ -172,7 +172,7 @@ export default () => {
         name: 'Precipitation',
         type: 'bar',
         tooltip: {
-          valueFormatter: function (value) {
+          valueFormatter: function (value: string) {
             return value + ' ml';
           },
         },
@@ -185,7 +185,7 @@ export default () => {
         type: 'line',
         yAxisIndex: 1,
         tooltip: {
-          valueFormatter: function (value) {
+          valueFormatter: function (value: string) {
             return value + ' °C';
           },
         },
