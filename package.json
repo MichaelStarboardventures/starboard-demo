@@ -22,7 +22,7 @@
   "dependencies": {
     "@ant-design/pro-layout": "^6.5.0",
     "@starboard-ventures/design.ui.echarts": "^0.0.9",
-    "@starboard-ventures/design.ui.layout": "^0.0.31",
+    "@starboard-ventures/design.ui.layout": "^0.0.32",
     "@starboard-ventures/design.ui.section": "^0.0.22",
     "react": "17.x",
     "react-dom": "17.x",
